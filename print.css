@@ -201,7 +201,7 @@ html {
 }
 
 .feature-box {
-  background-color: #f524af8e;
+  background-color: #b5e962e0;
   padding: 30px;
   border-radius: 16px;
   flex: 1;
@@ -461,7 +461,7 @@ html {
 .resource-card a {
   text-decoration: none;
   color: white;
-  background-color: #005247;
+  background-color: #2bdfece8;
   padding: 10px 16px;
   border-radius: 8px;
   display: inline-block;
@@ -555,7 +555,7 @@ html {
 .btn-primary {
   display: inline-block;
   background-color: var(--primary); /* or use #00796b */
-  color: rgb(243, 7, 7);
+  color: rgb(4, 126, 0);
   padding: 12px 20px;
   border-radius: 8px;
   text-decoration: none;
@@ -758,7 +758,7 @@ html {
 }
 /* Footer Styling */
 .footer {
-  background-color: #111827;
+  background-color: #29004e;
   color: #fff;
   padding: 40px 0 20px;
   font-size: 14px;

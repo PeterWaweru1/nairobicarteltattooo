@@ -76,7 +76,7 @@ nav a {
 }
 
 .hero-content {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.699);
   padding: 40px 50px;
   border-radius: 12px;
   max-width: 600px;
@@ -109,7 +109,7 @@ nav a {
 }
 /* Info section */
 .info-section {
-  background-color: #fef7f1;
+  background-color: #f7fef1;
   padding: 60px 20px;
   display: flex;
   justify-content: center;
@@ -201,7 +201,7 @@ html {
 }
 
 .feature-box {
-  background-color: #fef7f1;
+  background-color: #f524af8e;
   padding: 30px;
   border-radius: 16px;
   flex: 1;
@@ -811,4 +811,120 @@ html {
   border-top: 1px solid #1f2937;
   padding-top: 10px;
   color: #9ca3af;
+}
+/* Base styles */
+.support-section {
+  background-color: #111; /* Dark background for bold feel */
+  color: #f4f4f4;
+  padding: 60px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.support-section h2,
+.support-section h3 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.support-section p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.contact-details,
+.contact-form {
+  flex: 1 1 45%;
+}
+
+/* Contact Details */
+.contact-details p {
+  margin: 10px 0;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 20px;
+  color: #f4f4f4;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #e63946; /* Tattoo red highlight */
+}
+
+/* Form */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #e63946;
+  background-color: #1a1a1a;
+}
+
+.btn-primary {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #c02635;
+}
+
+.form-message {
+  margin-top: 15px;
+  color: #e6e6e6;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-details,
+  .contact-form {
+    flex: 1 1 100%;
+  }
 }
